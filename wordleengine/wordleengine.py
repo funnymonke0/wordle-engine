@@ -203,7 +203,6 @@ class WordleEngine():
     # main
     def solve(self):
         try:
-            self.keyword = ''
             self.prompt(1)
 
             for i in range(0, 6):
