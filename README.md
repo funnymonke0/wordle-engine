@@ -54,7 +54,6 @@
 - Tracks letter frequencies for each position.
 - Scores each candidate word:
   - Rewards high-frequency letters in optimal positions.
-  - Penalizes repeated letters to maximize information gain.
 - Selects the best-scoring word as the next guess.
 
 ---
