@@ -1,6 +1,7 @@
 # 🧠 WordleEngine
 
 **WordleEngine** is a Python-based solver for the popular word game **Wordle**. It narrows down possible solutions based on user-provided feedback (colors: green, yellow, black) and selects optimal guesses based on frequency analysis.
+Basically, it prunes the wordlist, applies a scoring algorithm (based on frequency) and returns the highest value word.
 
 ---
 
