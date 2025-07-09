@@ -216,7 +216,7 @@ class WordleEngine():
             sys.exit()
 
 
+if __name__ == "__main__":
+    engine = WordleEngine()
 
-engine = WordleEngine()
-
-engine.solve()
+    engine.solve()
